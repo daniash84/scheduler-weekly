@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: #FFFCFF;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+#calendar {
+    
+}
+
+#weekdays {
+   
+}
+
+.main-head h1 {
+    
+    
+}   
+
+#headeer {
+  
+}
+
