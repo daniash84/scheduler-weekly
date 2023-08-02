@@ -7,22 +7,19 @@ textarea {
     height: 100%;
     margin: 100px auto 0;
     padding: 10px;
-    /* background-color: white; */
+    background-color: whitesmoke;
     border: none;
     resize: none;
     border-left: 1px solid black;
   
-   
 }
-
-.jumbotron {
-   text-align: center; 
-   background-color: transparent;
-   color: black;
-   border-radius: 0%;
-   border-bottom: 10px solid black;
-}
-
+.main-header {
+    text-align: center;
+    background-color: transparent;
+    color: gray;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
 .description {
    white-space: pre-wrap;
 }
@@ -36,11 +33,6 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid whitesmoke;
-}
-
-.col-md-8{
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 .hour {
@@ -64,7 +56,7 @@ textarea {
     color: whitesmoke;
 }
 
-.saveBtn {
+.save-btn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -74,8 +66,19 @@ textarea {
     width:100%;
 }
 
-.saveBtn i:hover {
+.save-btn i:hover {
     font-size: 35px;
     transition: all .3s ease-in-out;
     color: darkmagenta;
 }
+
+.time {
+    background-color:  salmon;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px ;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 20px;
+  }
