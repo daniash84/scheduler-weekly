@@ -1,36 +1,81 @@
 body {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    background-color: #FFFCFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container {
-    width: 90%;
-    max-width: 600px;
+textarea {
+    width: 100%;
+    height: 100%;
     margin: 100px auto 0;
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 2px;
-    text-align: center;
-    flex: 1 1 auto;
-}
-
-#calendar {
-    
-}
-
-#weekdays {
+    padding: 10px;
+    /* background-color: white; */
+    border: none;
+    resize: none;
+    border-left: 1px solid black;
+  
    
 }
 
-.main-head h1 {
-    
-    
-}   
-
-#headeer {
-  
+.jumbotron {
+   text-align: center; 
+   background-color: transparent;
+   color: black;
+   border-radius: 0%;
+   border-bottom: 10px solid black;
 }
 
+.description {
+   white-space: pre-wrap;
+}
+
+.time-block {
+   text-align: center; 
+    border-radius: 15px;
+}   
+
+.row{
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid whitesmoke;
+}
+
+.col-md-8{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.hour {
+    background-color: whitesmoke;
+    color: black;
+    border-top: 1px dashed black
+}
+
+.past {
+    background-color: lightgrey;
+    color: whitesmoke;
+}
+
+.present {
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+.future {
+    background-color:greenyellow;
+    color: whitesmoke;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: turquoise;
+    color: whitesmoke;
+    height: 100%;
+    width:100%;
+}
+
+.saveBtn i:hover {
+    font-size: 35px;
+    transition: all .3s ease-in-out;
+    color: darkmagenta;
+}
